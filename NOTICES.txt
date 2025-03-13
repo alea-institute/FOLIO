@@ -1,0 +1,17 @@
+NOTICES
+=======
+
+This project is a fork of the original MIT-licensed work by the SALI Alliance and various contributors.  It is now maintained under a Creative Commons Attribution (CC-BY) license by the ALEA Institute.
+
+Original Project:
+- Developed by SALI Alliance and various contributors, including Damien Riehl and Michael Bommarito
+- Licensed under the MIT License (see LICENSE file)
+
+Current Project:
+- Managed by ALEA Institute and various contributors, including Damien Riehl and Michael Bommarito
+- Licensed under the CC-BY License (see LICENSE file)
+
+We gratefully acknowledge all contributors who have rolled up their sleeves and contributed to shape this project. 
+
+For a full contribution history, please refer to this project and the original projects' version control logs.
+
