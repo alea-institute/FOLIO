@@ -212753,7 +212753,7 @@ A null value defaults to &quot;&quot;TM&quot;&quot;.
         <skos:altLabel xml:lang="de-de">Zivilprozessordnung</skos:altLabel>
         <skos:altLabel xml:lang="ja-jp">民事訴訟規則</skos:altLabel>
         <skos:altLabel xml:lang="zh-cn">民事诉讼规则</skos:altLabel>
-        <skos:definition>A court&apos;s body of procedural rules governing criminal actions.</skos:definition>
+        <skos:definition>A court&apos;s body of procedural rules governing civil actions.</skos:definition>
     </owl:Class>
     
 
