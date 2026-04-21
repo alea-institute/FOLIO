@@ -35,7 +35,7 @@ jobs:
           if [ -f webprotege-export.zip ]; then
             WP_INPUT=webprotege-export.zip
           else
-            WP_INPUT=FOLIO-webprotege-merge.owl
+            WP_INPUT=FOLIO-webprotege-merge-output.owl
           fi
           python scripts/generate_webprotege_merge.py \
             --github-owl FOLIO.owl \
