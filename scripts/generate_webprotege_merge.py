@@ -27,6 +27,18 @@ log = logging.getLogger(__name__)
 
 FOLIO_NS = "https://folio.openlegalstandard.org/"
 
+# SKOS label predicates whose *removals* are safe to propagate to WebProtégé.
+# These are multi-valued, non-structural labels: dropping one never leaves a
+# concept without a name. Deliberately excludes skos:prefLabel (every concept
+# needs one; a "removed" prefLabel is almost always a rename handled elsewhere)
+# and skos:definition (handled as a 1:1 update). folio:-prefixed values are
+# filtered out too — those are WebProtégé's relationship-label representation,
+# not genuine content (the inverse of the label-normalization handling above).
+REMOVABLE_LABEL_PREDICATES = {
+    "altLabel": SKOS.altLabel,
+    "hiddenLabel": SKOS.hiddenLabel,
+}
+
 # Regex patterns for OWL/XML block extraction
 IRI_COMMENT_RE = re.compile(r"^\s*<!-- (https?://\S+) -->\s*$")
 CLASS_BLOCK_RE = re.compile(
@@ -48,7 +60,8 @@ class SemanticDiff:
     definition_updates: dict = field(default_factory=dict)  # IRI -> new definition Literal
     new_restrictions: dict = field(default_factory=dict)  # IRI -> list of (prop, value) tuples
     new_other_triples: list = field(default_factory=list)  # (s, p, o) triples
-    removals: list = field(default_factory=list)  # (s, p, o) triples removed in GH
+    removed_labels: dict = field(default_factory=dict)  # IRI -> list of (pred_local, Literal) to delete
+    removals: list = field(default_factory=list)  # (s, p, o) triples removed in GH (logged, not applied)
 
 
 def load_webprotege_base(path: str) -> str:
@@ -149,6 +162,29 @@ def compute_semantic_diff(gh_path: str, wp_content: str) -> SemanticDiff:
         if new_alt:
             diff.new_alt_labels[cls_str] = sorted(new_alt, key=str)
 
+        # Check label removals (altLabel/hiddenLabel present in WP but gone in GH).
+        # Only treat a label as removed when its *surface string* is entirely
+        # absent from GH for this concept — never when it merely moved to another
+        # slot (e.g. altLabel→prefLabel) or was re-tagged with a language. Since
+        # this script does not re-add prefLabels, deleting a reclassified label
+        # would otherwise drop the surface form. folio:-prefixed values are
+        # WebProtégé's relationship-label representation, not editorial content.
+        gh_label_strings = {
+            str(v) for lp in (RDFS.label, SKOS.prefLabel, SKOS.altLabel, SKOS.hiddenLabel)
+            for v in gh_graph.objects(cls, lp)
+        }
+        for pred_local, pred in REMOVABLE_LABEL_PREDICATES.items():
+            gh_vals = set(gh_graph.objects(cls, pred))
+            wp_vals = set(wp_graph.objects(cls, pred))
+            removed = [
+                v for v in (wp_vals - gh_vals)
+                if isinstance(v, Literal)
+                and not str(v).startswith("folio:")
+                and str(v) not in gh_label_strings
+            ]
+            for v in sorted(removed, key=str):
+                diff.removed_labels.setdefault(cls_str, []).append((pred_local, v))
+
         # Check label normalization (folio: prefix moved from rdfs:label to skos:notation)
         gh_labels = set(gh_graph.objects(cls, RDFS.label))
         wp_labels = set(wp_graph.objects(cls, RDFS.label))
@@ -198,6 +234,10 @@ def compute_semantic_diff(gh_path: str, wp_content: str) -> SemanticDiff:
                 # Only track removals of folio entities, skip noise
                 if p == RDFS.label and str(o).startswith("folio:"):
                     # This is a label normalization, not a removal
+                    continue
+                # Skip label removals we apply explicitly (tracked separately)
+                applied = diff.removed_labels.get(str(s), [])
+                if any(pred == str(p).split("#")[-1] and lit == o for pred, lit in applied):
                     continue
                 diff.removals.append((str(s), str(p), str(o)))
 
@@ -432,8 +472,59 @@ def apply_changes(wp_content: str, diff: SemanticDiff, gh_content: str) -> str:
             changes_applied += 1
             log.info("Added restriction to %s: %s %s %s", iri, prop, restriction_type_local, value)
 
+    # 6. Remove labels deleted in GitHub (e.g. a stray altLabel). Surgical,
+    #    line-level removal scoped to the target class block only.
+    for iri, items in diff.removed_labels.items():
+        iri_escaped = re.escape(iri)
+        block_pattern = re.compile(
+            r"(<owl:Class rdf:about=\"" + iri_escaped + r"\">)"
+            r"(.*?)"
+            r"(</owl:Class>)",
+            re.DOTALL,
+        )
+        m = block_pattern.search(result)
+        if not m:
+            log.warning("Could not find class block for %s to remove labels", iri)
+            continue
+
+        block_start, block_end = m.start(), m.end()
+        block_text = m.group(0)
+        new_block = block_text
+        for pred_local, label in items:
+            new_block, removed = _remove_label_line(new_block, pred_local, label)
+            if removed:
+                changes_applied += 1
+                log.info("Removed %s '%s' from %s", pred_local, str(label), iri)
+            else:
+                log.warning(
+                    "Label %s '%s' not found in %s block (already absent?)",
+                    pred_local, str(label), iri,
+                )
+
+        if new_block != block_text:
+            result = result[:block_start] + new_block + result[block_end:]
+
     log.info("Total changes applied: %d", changes_applied)
     return result
+
+
+def _remove_label_line(block_text: str, pred_local: str, label) -> tuple[str, bool]:
+    """Remove a single SKOS label line (e.g. <skos:altLabel>X</skos:altLabel>)
+    from a class block, matching its optional xml:lang and the whole physical
+    line (leading indentation + trailing newline). Returns (new_block, removed?).
+
+    A plain (no-lang) literal only matches the no-attribute tag, so it will never
+    clobber a language-tagged variant of the same string, and vice versa.
+    """
+    tag = re.escape(f"skos:{pred_local}")
+    label_escaped = re.escape(_xml_escape(str(label)))
+    lang = label.language if isinstance(label, Literal) else None
+    lang_attr = r' xml:lang="' + re.escape(lang) + r'"' if lang else r""
+    pattern = re.compile(
+        r"[ \t]*<" + tag + lang_attr + r">" + label_escaped + r"</" + tag + r">[ \t]*\r?\n"
+    )
+    new_block, n = pattern.subn("", block_text, count=1)
+    return new_block, n > 0
 
 
 def _xml_escape(text: str) -> str:
@@ -525,8 +616,16 @@ def print_summary(diff: SemanticDiff, output_path: str):
             print(f"  + {iri.split('/')[-1]}: {len(diff.new_restrictions[iri])} restriction(s)")
         print()
 
+    if diff.removed_labels:
+        total_removed = sum(len(v) for v in diff.removed_labels.values())
+        print(f"Label removals applied ({total_removed} across {len(diff.removed_labels)} classes):")
+        for iri, items in sorted(diff.removed_labels.items()):
+            for pred_local, label in items:
+                print(f"  - {iri.split('/')[-1]}: {pred_local} '{label}'")
+        print()
+
     if diff.removals:
-        print(f"Removals detected ({len(diff.removals)}) — NOT applied (review manually):")
+        print(f"Other removals detected ({len(diff.removals)}) — NOT applied (review manually):")
         for s, p, o in diff.removals[:10]:
             print(f"  - {s.split('/')[-1]} {p.split('#')[-1] if '#' in p else p.split('/')[-1]} {str(o)[:60]}")
         if len(diff.removals) > 10:
@@ -539,6 +638,7 @@ def print_summary(diff: SemanticDiff, output_path: str):
         + len(diff.label_normalizations)
         + len(diff.definition_updates)
         + sum(len(v) for v in diff.new_restrictions.values())
+        + sum(len(v) for v in diff.removed_labels.values())
     )
     print(f"Total changes applied: {total_changes}")
     print("=" * 60)

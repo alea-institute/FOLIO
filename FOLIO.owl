@@ -78507,6 +78507,8 @@ Excluded from this subsector are establishment primarily engaged in manufacturin
         <skos:altLabel xml:lang="hi-in">समझौते</skos:altLabel>
         <skos:altLabel xml:lang="zh-cn">协议</skos:altLabel>
         <skos:altLabel xml:lang="ja-jp">合意書</skos:altLabel>
+        <skos:altLabel>Agreement</skos:altLabel>
+        <skos:altLabel>Contract</skos:altLabel>
         <skos:definition>Agreements are written documents that establish a legally binding understanding between two or more parties, outlining the terms and conditions of a transaction or relationship.</skos:definition>
         <skos:prefLabel>Contracts</skos:prefLabel>
     </owl:Class>
@@ -188793,9 +188795,11 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCiAtR0akBA7apMyfjy515B">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8H8cpx25KBk3kH55YwSdDv"/>
-        <rdfs:label>DUPE of `License `</rdfs:label>
-        <skos:altLabel>Agreement</skos:altLabel>
-        <skos:definition>A &quot;License (Agreement)&quot; or &quot;Agreement&quot; is a legal document that grants permission or rights to use a particular product, service, or intellectual property, typically subject to certain conditions and limitations.</skos:definition>
+        <rdfs:comment>DEPRECATED: Editorial duplicate of License (Agreement). Use https://folio.openlegalstandard.org/RKKRGOkIme6pnG2BSePt1Z instead.</rdfs:comment>
+        <rdfs:label>DEPRECATED Duplicate of License (Agreement)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RKKRGOkIme6pnG2BSePt1Z"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition>DEPRECATED: This concept is an editorial duplicate of License (Agreement). It is retained as a deprecated placeholder to preserve IRI stability; use License (Agreement) (https://folio.openlegalstandard.org/RKKRGOkIme6pnG2BSePt1Z) instead.</skos:definition>
     </owl:Class>
     
 
@@ -238247,12 +238251,12 @@ Music publishers and establishments primarily engaged in the production, or prod
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzs34uEQI9f4cuWp3bQO0P"/>
         <rdfs:label>License (Agreement)</rdfs:label>
-        <skos:altLabel>Agreement</skos:altLabel>
         <skos:altLabel xml:lang="en-gb">Licence</skos:altLabel>
         <skos:altLabel xml:lang="fr-fr">Licence</skos:altLabel>
         <skos:altLabel xml:lang="es-es">Licencia</skos:altLabel>
         <skos:altLabel xml:lang="es-mx">Licencia</skos:altLabel>
-        <skos:altLabel>License</skos:altLabel>
+        <skos:prefLabel>License</skos:prefLabel>
+        <skos:altLabel>License Agreement</skos:altLabel>
         <skos:altLabel xml:lang="pt-br">Licença</skos:altLabel>
         <skos:altLabel xml:lang="de-de">Lizenz</skos:altLabel>
         <skos:altLabel xml:lang="he-il">רישיון</skos:altLabel>
