@@ -58617,6 +58617,60 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <rdfs:comment>From LIST: Legal Issues Taxonomy — https://taxonomy.legal/</rdfs:comment>
         <rdfs:label>Food Public Benefit</rdfs:label>
         <skos:definition>Food public benefit refers to government programs specifically designed to provide food or food-purchasing assistance to individuals and families facing financial hardship. Programs like the Supplemental Nutrition Assistance Program (SNAP) in the United States or similar initiatives in other countries offer vouchers, electronic benefit transfer cards, or direct food provisions to help ensure access to adequate nutrition.</skos:definition>
+            <skos:altLabel>3SquaresVT</skos:altLabel>
+        <skos:altLabel>ASNAP</skos:altLabel>
+        <skos:altLabel>Access Oklahoma</skos:altLabel>
+        <skos:altLabel>Alaska Quest</skos:altLabel>
+        <skos:altLabel>Arizona Quest</skos:altLabel>
+        <skos:altLabel>Basic Food Program</skos:altLabel>
+        <skos:altLabel>Bay State Access</skos:altLabel>
+        <skos:altLabel>Benefit Security Card</skos:altLabel>
+        <skos:altLabel>Bridge Card</skos:altLabel>
+        <skos:altLabel>CalFresh</skos:altLabel>
+        <skos:altLabel>Capital Access Card</skos:altLabel>
+        <skos:altLabel>Colorado Quest Card</skos:altLabel>
+        <skos:altLabel>Connect Card</skos:altLabel>
+        <skos:altLabel>Delaware Food First</skos:altLabel>
+        <skos:altLabel>EBT</skos:altLabel>
+        <skos:altLabel>Electronic Benefit Transfer</skos:altLabel>
+        <skos:altLabel>Families First Card</skos:altLabel>
+        <skos:altLabel>Fiesta Card</skos:altLabel>
+        <skos:altLabel>Food Aid</skos:altLabel>
+        <skos:altLabel>Food Assistance</skos:altLabel>
+        <skos:altLabel>Food Assistance Program</skos:altLabel>
+        <skos:altLabel>Food Benefits</skos:altLabel>
+        <skos:altLabel>Food Stamp Program</skos:altLabel>
+        <skos:altLabel>Food Stamps</skos:altLabel>
+        <skos:altLabel>Food Supplement Program</skos:altLabel>
+        <skos:altLabel>Food Vouchers</skos:altLabel>
+        <skos:altLabel>Food and Nutrition Services</skos:altLabel>
+        <skos:altLabel>FoodShare</skos:altLabel>
+        <skos:altLabel>Golden State Advantage</skos:altLabel>
+        <skos:altLabel>Government Food Assistance</skos:altLabel>
+        <skos:altLabel>Hoosier Works</skos:altLabel>
+        <skos:altLabel>Illinois Link</skos:altLabel>
+        <skos:altLabel>Kansas Benefits Card</skos:altLabel>
+        <skos:altLabel>Kentucky Benefit Security Card</skos:altLabel>
+        <skos:altLabel>LINK</skos:altLabel>
+        <skos:altLabel>Lone Star Card</skos:altLabel>
+        <skos:altLabel>Louisiana Purchase Card</skos:altLabel>
+        <skos:altLabel>MDHR Independence Card</skos:altLabel>
+        <skos:altLabel>Maine Pine Tree Card</skos:altLabel>
+        <skos:altLabel>Montana Access</skos:altLabel>
+        <skos:altLabel>Mountain State Card</skos:altLabel>
+        <skos:altLabel>NAP</skos:altLabel>
+        <skos:altLabel>Nutrition Assistance</skos:altLabel>
+        <skos:altLabel>Nutrition Assistance Program</skos:altLabel>
+        <skos:altLabel>Ohio Direction Card</skos:altLabel>
+        <skos:altLabel>Oregon Trail Card</skos:altLabel>
+        <skos:altLabel>PAN</skos:altLabel>
+        <skos:altLabel>Pennsylvania ACCESS Card</skos:altLabel>
+        <skos:altLabel>Quest Card</skos:altLabel>
+        <skos:altLabel>SNAP</skos:altLabel>
+        <skos:altLabel>SNAP Benefits</skos:altLabel>
+        <skos:altLabel>Supplemental Nutrition Assistance Program</skos:altLabel>
+        <skos:altLabel>Utah Horizon</skos:altLabel>
+        <skos:altLabel>Vermont Express</skos:altLabel>
     </owl:Class>
     
 
@@ -78321,6 +78375,8 @@ Excluded from this subsector are establishment primarily engaged in manufacturin
         <skos:altLabel xml:lang="ja-jp">合意書</skos:altLabel>
         <skos:definition>Agreements are written documents that establish a legally binding understanding between two or more parties, outlining the terms and conditions of a transaction or relationship.</skos:definition>
         <skos:prefLabel>Contracts</skos:prefLabel>
+            <skos:altLabel>Agreement</skos:altLabel>
+        <skos:altLabel>Contract</skos:altLabel>
     </owl:Class>
     
 
@@ -188602,8 +188658,7 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCiAtR0akBA7apMyfjy515B">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8H8cpx25KBk3kH55YwSdDv"/>
         <rdfs:label>DUPE of `License `</rdfs:label>
-        <skos:altLabel>Agreement</skos:altLabel>
-        <skos:definition>A &quot;License (Agreement)&quot; or &quot;Agreement&quot; is a legal document that grants permission or rights to use a particular product, service, or intellectual property, typically subject to certain conditions and limitations.</skos:definition>
+        <skos:definition>DEPRECATED: This concept is an editorial duplicate of License (Agreement). It is retained as a deprecated placeholder to preserve IRI stability; use License (Agreement) (https://folio.openlegalstandard.org/RKKRGOkIme6pnG2BSePt1Z) instead.</skos:definition>
     </owl:Class>
     
 
@@ -212561,7 +212616,7 @@ A null value defaults to &quot;&quot;TM&quot;&quot;.
         <skos:altLabel xml:lang="de-de">Zivilprozessordnung</skos:altLabel>
         <skos:altLabel xml:lang="ja-jp">民事訴訟規則</skos:altLabel>
         <skos:altLabel xml:lang="zh-cn">民事诉讼规则</skos:altLabel>
-        <skos:definition>A court&apos;s body of procedural rules governing criminal actions.</skos:definition>
+        <skos:definition>A court&apos;s body of procedural rules governing civil actions.</skos:definition>
     </owl:Class>
     
 
@@ -238055,7 +238110,6 @@ Music publishers and establishments primarily engaged in the production, or prod
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzs34uEQI9f4cuWp3bQO0P"/>
         <rdfs:label>License (Agreement)</rdfs:label>
-        <skos:altLabel>Agreement</skos:altLabel>
         <skos:altLabel xml:lang="en-gb">Licence</skos:altLabel>
         <skos:altLabel xml:lang="fr-fr">Licence</skos:altLabel>
         <skos:altLabel xml:lang="es-es">Licencia</skos:altLabel>
@@ -238068,6 +238122,7 @@ Music publishers and establishments primarily engaged in the production, or prod
         <skos:altLabel xml:lang="ja-jp">ライセンス</skos:altLabel>
         <skos:altLabel xml:lang="zh-cn">许可证</skos:altLabel>
         <skos:definition>A License (Agreement) is a legal document that grants permission to use a particular product or service under certain terms and conditions.</skos:definition>
+            <skos:altLabel>License Agreement</skos:altLabel>
     </owl:Class>
     
 
