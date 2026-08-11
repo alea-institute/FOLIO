@@ -31187,6 +31187,30 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R42ICg1boXjkipgsqWjq1YI -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R42ICg1boXjkipgsqWjq1YI">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8wEzsnWA30YRmdfZKRkFuH"/>
+        <rdfs:label>Opening Brief</rdfs:label>
+        <skos:altLabel>Brief in Support</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Eröffnungsschriftsatz</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Escrito de Apertura</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Escrito de Apertura</skos:altLabel>
+        <skos:altLabel>Memorandum in Support</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Memorial de Abertura</skos:altLabel>
+        <skos:altLabel>Moving Brief</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Mémoire d&apos;ouverture</skos:altLabel>
+        <skos:altLabel>Opening</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Opening Brief</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">כתב טענות פותח</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">प्रारंभिक संक्षिप्त विवरण</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">冒頭準備書面</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">开案简报</skos:altLabel>
+        <skos:definition>An opening brief is the first brief filed by the party seeking relief - the moving party on a motion or the appellant on appeal - that presents that party&apos;s affirmative arguments together with the relevant facts and authorities, framing the issues for the court before any responsive briefing.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R43008f326cb831512d628b7 -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R43008f326cb831512d628b7">
@@ -35531,6 +35555,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RDECjssxw76vdlahxiUTb4L"/>
         <rdfs:label>Missouri Circuit Court - Jackson County</rdfs:label>
         <skos:definition>The Missouri Circuit Court - Jackson County is a specific court within the Missouri Circuit Court system that has jurisdiction over legal matters within Jackson County, Missouri.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R4zA3mVUo3PmuxYN1wmCYuV -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R4zA3mVUo3PmuxYN1wmCYuV">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8wEzsnWA30YRmdfZKRkFuH"/>
+        <rdfs:label>Opposition Brief</rdfs:label>
+        <skos:altLabel>Answering Brief</skos:altLabel>
+        <skos:altLabel>Brief in Opposition</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Escrito de Oposición</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Escrito de Oposición</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Gegenschriftsatz</skos:altLabel>
+        <skos:altLabel>Memorandum in Opposition</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Memorial de Oposição</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Mémoire en opposition</skos:altLabel>
+        <skos:altLabel>Opposition</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Opposition Brief</skos:altLabel>
+        <skos:altLabel>Response Brief</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">כתב התנגדות</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">विरोध संक्षिप्त विवरण</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">反对简报</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">反対準備書面</skos:altLabel>
+        <skos:definition>An opposition brief is a brief filed by the party opposing the relief requested in an opening brief, responding to the moving party&apos;s arguments and presenting the facts and authorities that support denial of the requested relief.</skos:definition>
     </owl:Class>
     
 
@@ -44392,6 +44441,28 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <rdfs:label>Haut-Katanga</rdfs:label>
         <skos:hiddenLabel>CD+HK</skos:hiddenLabel>
         <skos:prefLabel>Haut-Katanga</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R6D87FyazsUZ7UDhHoQ7wSU -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R6D87FyazsUZ7UDhHoQ7wSU">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8wEzsnWA30YRmdfZKRkFuH"/>
+        <rdfs:label>Reply Brief</rdfs:label>
+        <skos:altLabel xml:lang="de-de">Erwiderungsschriftsatz</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Escrito de Réplica</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Escrito de Réplica</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Memorial de Réplica</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Mémoire en réplique</skos:altLabel>
+        <skos:altLabel>Reply</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Reply Brief</skos:altLabel>
+        <skos:altLabel>Reply Memorandum</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">כתב תשובה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">जवाबी संक्षिप्त विवरण</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">反論準備書面</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">回复简报</skos:altLabel>
+        <skos:definition>A reply brief is a brief filed by the party that submitted the opening brief, responding to the arguments raised in the opposition brief. It is generally limited to rebuttal and completes the cycle of briefing on a motion or appeal.</skos:definition>
     </owl:Class>
     
 
@@ -113221,20 +113292,13 @@ Note that the EXTEND_HEADER option was purposely omitted from this segment.
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R9EcFXhVZqqhn4lXpw0Sdte">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8wEzsnWA30YRmdfZKRkFuH"/>
-        <rdfs:label>Opposition / Reply</rdfs:label>
-        <rdfs:seeAlso>Reply</rdfs:seeAlso>
-        <skos:altLabel xml:lang="es-es">Oposición / Respuesta</skos:altLabel>
-        <skos:altLabel xml:lang="es-mx">Oposición / Respuesta</skos:altLabel>
-        <skos:altLabel xml:lang="pt-br">Oposição / Réplica</skos:altLabel>
-        <skos:altLabel>Opposition</skos:altLabel>
-        <skos:altLabel xml:lang="de-de">Opposition / Erwiderung</skos:altLabel>
-        <skos:altLabel xml:lang="en-gb">Opposition / Reply</skos:altLabel>
-        <skos:altLabel xml:lang="fr-fr">Opposition / Réplique</skos:altLabel>
-        <skos:altLabel xml:lang="he-il">התנגדות / תשובה</skos:altLabel>
-        <skos:altLabel xml:lang="hi-in">विरोध / जवाब</skos:altLabel>
-        <skos:altLabel xml:lang="zh-cn">反对 / 回复</skos:altLabel>
-        <skos:altLabel xml:lang="ja-jp">異議 / 返答</skos:altLabel>
-        <skos:definition>A written response to an argument or claim made by the opposing party in a legal case, typically filed in court and presented as evidence.</skos:definition>
+        <rdfs:comment>DEPRECATED: Split into Opposition Brief (https://folio.openlegalstandard.org/R4zA3mVUo3PmuxYN1wmCYuV) and Reply Brief (https://folio.openlegalstandard.org/R6D87FyazsUZ7UDhHoQ7wSU); see also Opening Brief (https://folio.openlegalstandard.org/R42ICg1boXjkipgsqWjq1YI), which completes the briefing cycle. Use those concepts instead.</rdfs:comment>
+        <rdfs:label>DEPRECATED Opposition / Reply</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/R42ICg1boXjkipgsqWjq1YI"/>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/R4zA3mVUo3PmuxYN1wmCYuV"/>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/R6D87FyazsUZ7UDhHoQ7wSU"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition>DEPRECATED: This concept combined opposition and reply briefing in a single class. It has been split into distinct briefing types - Opening Brief (https://folio.openlegalstandard.org/R42ICg1boXjkipgsqWjq1YI), Opposition Brief (https://folio.openlegalstandard.org/R4zA3mVUo3PmuxYN1wmCYuV), and Reply Brief (https://folio.openlegalstandard.org/R6D87FyazsUZ7UDhHoQ7wSU) - so each stage of the briefing cycle can be identified separately. It is retained as a deprecated placeholder to preserve IRI stability; use those concepts instead.</skos:definition>
     </owl:Class>
     
 
