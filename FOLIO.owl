@@ -20057,6 +20057,35 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R1cNH7TLMiSlSbIbdFsynUk -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R1cNH7TLMiSlSbIbdFsynUk">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzxVprwB3RwZ8EMewt18Jt"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+                <owl:someValuesFrom rdf:resource="https://folio.openlegalstandard.org/RxPxADB12qeAIDAFEgWRsz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Co-Investment Fund</rdfs:label>
+        <skos:altLabel>Co-Invest Fund</skos:altLabel>
+        <skos:altLabel>Co-Investment Vehicle</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Co-Investment-Fonds</skos:altLabel>
+        <skos:altLabel>Coinvestment Fund</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Fonds de co-investissement</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Fundo de coinvestimento</skos:altLabel>
+        <skos:altLabel>Sidecar Fund</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">共同投資ファンド</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">共同投资基金</skos:altLabel>
+        <skos:definition>A Co-Investment Fund is an investment fund established to invest capital alongside another fund, sponsor, lead investor, or investment program in the same portfolio companies, projects, assets, or financings. Its governing arrangements generally specify the eligible co-investment opportunities, the allocation of investments between the fund and the lead or primary investment vehicle, the economic terms applicable to participating investors, and the relationship between the fund and that lead or primary vehicle. A co-investment fund is distinguished by how it participates in investments rather than by the asset class it holds, so it may pursue private equity, venture capital, private credit, infrastructure, or real estate strategies, and it may be sponsored by private managers, by public bodies, or by the two together.</skos:definition>
+        <skos:example>The sponsor formed a co-investment fund to invest alongside its flagship buyout fund in selected portfolio companies.</skos:example>
+        <skos:example>Limited partners in the primary fund were offered participation in a co-investment fund that took additional equity in the same acquisition.</skos:example>
+        <skos:example>The manager established an employee co-investment fund through which investment professionals invested alongside the funds they managed.</skos:example>
+        <skos:example>A public authority capitalized a co-investment fund that invested public money alongside private venture investors in qualifying local enterprises.</skos:example>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R1dk7E7NXtA2s1PAymIg6j -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R1dk7E7NXtA2s1PAymIg6j">
