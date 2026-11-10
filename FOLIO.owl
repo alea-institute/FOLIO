@@ -76456,6 +76456,7 @@ If no extensions are defined, this element will not be present.
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R84WSMY4efMvESQh729h2Kp">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8mREFTbCVNHGAdqneLSd0d"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0"/>
         <dc:source>New Mexico Criminal Jury Instruction 14-5106</dc:source>
         <dc:source>Oklahoma Jury Instructions, Ouji-cr 8-42</dc:source>
         <dc:source>State v. Davis, 2021 Ohio 237 (Ohio Ct. App. Jan. 29, 2021).</dc:source>
@@ -111876,6 +111877,7 @@ Note that the EXTEND_HEADER option was purposely omitted from this segment.
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzs34uEQI9f4cuWp3bQO0P"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
@@ -126407,6 +126409,7 @@ Establishments operating telecommunications facilities and infrastructure and di
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R9ikrznaQwm4RUsMzP9KXFR">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
@@ -127017,6 +127020,7 @@ Establishments operating telecommunications facilities and infrastructure and di
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R9kRdeC3m6NEz0zOxotAueb">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8mREFTbCVNHGAdqneLSd0d"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0"/>
         <rdfs:label>Lack of Capacity</rdfs:label>
         <skos:definition>In criminal law, a &quot;lack of capacity&quot; refers to a defendant&apos;s inability, due to mental illness, cognitive impairment, or other factors, to understand the nature and consequences of their actions or to conform their behavior to the requirements of the law. If proven, this lack of capacity can be a defense in some cases, as it may negate the defendant&apos;s criminal responsibility for the alleged actions.</skos:definition>
         <skos:prefLabel>Incompetence</skos:prefLabel>
@@ -186234,6 +186238,7 @@ It would be possible for the law firm to submit an invoice containing all line i
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCZwssbqfmu0Lds0LPDV34F">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz"/>
         <rdfs:label>Compliance</rdfs:label>
         <skos:altLabel>Legal Compliance</skos:altLabel>
         <skos:definition>Deontic compliance refers to the conformity in action, behavior, or attitude to a set of rules or standards, as prescribed by laws, regulations, or ethical principles.</skos:definition>
@@ -187560,6 +187565,7 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCdJXw1Ml7DIBqmouWarZm2">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD"/>
         <rdfs:comment>From LIST: Legal Issues Taxonomy — https://taxonomy.legal/</rdfs:comment>
         <rdfs:label>Exception</rdfs:label>
         <skos:definition>In a legal context, an exception refers to a situation or circumstance that deviates from the general rule or norm. Exceptions are typically invoked to address specific conditions or cases that require special consideration or treatment within a legal framework.</skos:definition>
@@ -192935,6 +192941,7 @@ If tx_id is a Tiered Tax, the value in this field should be 0.
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCqqI0SLTxsE8Z2rCu7KOXm">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
         <rdfs:label>Prohibition</rdfs:label>
         <skos:definition>Prohibition refers to a legal or moral mandate that forbids or restricts a specific action, behavior, or practice, enforceable by law or ethical principles.</skos:definition>
     </owl:Class>
@@ -194346,6 +194353,7 @@ If tx_id is a Tiered Tax, the value in this field should be 0.
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RCurUksxnjgPwYWpCSq0xPI">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
         <rdfs:label>Permission</rdfs:label>
         <skos:definition>Permission refers to the formal consent or authorization granted by an authority, allowing an individual or entity to perform a certain action that would otherwise be illegal or against the rules.</skos:definition>
     </owl:Class>
@@ -203725,6 +203733,7 @@ Use ISO 4217 currency codes set forth by International Standards Organization (w
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RDDmzFedWDpLN1Xtuy3FiLh">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzs34uEQI9f4cuWp3bQO0P"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0"/>
         <rdfs:label>Duress</rdfs:label>
         <skos:altLabel xml:lang="es-es">Coacción</skos:altLabel>
         <skos:altLabel xml:lang="es-mx">Coacción</skos:altLabel>
@@ -207320,6 +207329,7 @@ Use ISO 4217 currency codes set forth by International Standards Organization (w
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RDLANHrFj8nfaiNIalX9Ndx">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8mREFTbCVNHGAdqneLSd0d"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R1zBn1lrGhO9ZNTlHKf0gB"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
@@ -220853,6 +220863,7 @@ In addition, in situations where the submission corrects an invoice rejected by 
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RDsDXHKUsZoJfz87jnz7zjj">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz"/>
         <rdfs:label>Violation</rdfs:label>
         <skos:definition>A violation is an act or instance of breaking or failing to comply with a rule, regulation, contract, or law, which can lead to legal consequences.</skos:definition>
     </owl:Class>
@@ -221286,6 +221297,7 @@ In addition, in situations where the submission corrects an invoice rejected by 
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RDtFkLR3v97fran5zQ3ugao">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
         <rdfs:label>Obligation</rdfs:label>
         <skos:altLabel>Duty</skos:altLabel>
         <skos:altLabel>Legal Obligation</skos:altLabel>
@@ -254585,6 +254597,7 @@ The total of the Withholding Tax(es) do not have to equal to the other taxes on 
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RbmgMZH2v4CykER8m2CutA">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCzs34uEQI9f4cuWp3bQO0P"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R1zBn1lrGhO9ZNTlHKf0gB"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
@@ -263730,6 +263743,7 @@ The total of the Withholding Tax(es) do not have to equal to the other taxes on 
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RmCCZU8GS7O8920pkDipw7">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP"/>
         <rdfs:label>Right</rdfs:label>
         <skos:altLabel>Legal Right</skos:altLabel>
         <skos:definition>A right is a moral, social, or legal entitlement to perform or refrain from certain actions, or to be in a certain state, often protected and enforceable by law.</skos:definition>
@@ -269260,6 +269274,7 @@ The total of the Withholding Tax(es) do not have to equal to the other taxes on 
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/Rss8FJTgnn6V9FuSLxl90u">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R8mREFTbCVNHGAdqneLSd0d"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0"/>
         <rdfs:label>Insanity Defense</rdfs:label>
         <skos:altLabel>Insanity</skos:altLabel>
         <skos:definition>The insanity defense is a legal strategy in which a defendant claims that they were not criminally responsible for their actions at the time of the alleged crime due to a severe mental disorder or illness. If successful, this defense can result in the defendant being found not guilty by reason of insanity or being committed to a psychiatric institution rather than being subject to criminal penalties.</skos:definition>
