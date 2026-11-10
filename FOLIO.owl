@@ -111885,11 +111885,11 @@ Note that the EXTEND_HEADER option was purposely omitted from this segment.
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Waiver</rdfs:label>
-        <skos:altLabel xml:lang="es-mx">Exención</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Renuncia</skos:altLabel>
         <skos:altLabel xml:lang="es-es">Renuncia</skos:altLabel>
         <skos:altLabel xml:lang="en-gb">Waiver</skos:altLabel>
-        <skos:altLabel xml:lang="he-il">וַעֲדָה</skos:altLabel>
-        <skos:altLabel xml:lang="hi-in">अस्वीकरण</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">ויתור</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अधित्याग</skos:altLabel>
         <skos:altLabel xml:lang="fr-fr">Renonciation</skos:altLabel>
         <skos:altLabel xml:lang="de-de">Verzicht</skos:altLabel>
         <skos:altLabel xml:lang="pt-br">Renúncia</skos:altLabel>
