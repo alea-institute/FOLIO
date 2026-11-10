@@ -17969,6 +17969,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R19dUa6OpptxedDqxi9cMOC -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R19dUa6OpptxedDqxi9cMOC">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCurUksxnjgPwYWpCSq0xPI"/>
+        <rdfs:label>Weak Permission</rdfs:label>
+        <skos:altLabel>Implicit Permission</skos:altLabel>
+        <skos:altLabel>Negative Permission</skos:altLabel>
+        <skos:altLabel>Residual Liberty</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Weak Permission</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Permiso débil</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Permiso débil</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Permission faible</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Schwache Erlaubnis</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Permissão fraca</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">היתר משתמע</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">निहित अनुमति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">弱い許可</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">弱许可</skos:altLabel>
+        <skos:definition>A weak permission is the permissibility of an action that follows only from the absence of any applicable prohibition, without any explicit grant. A weak permission cannot override an explicit prohibition.</skos:definition>
+        <skos:example>No statute forbids whistling on a public sidewalk, so a person may whistle there; nothing grants the permission, and nothing prohibits the act.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R1A13905C54f5B41384618d0 -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R1A13905C54f5B41384618d0">
@@ -19939,6 +19964,33 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R1VeCUx7ApksL6aQiE1BjFN -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R1VeCUx7ApksL6aQiE1BjFN">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RbR0g0g0FweCujfDBLnpLi"/>
+        <rdfs:label>Norm Priority</rdfs:label>
+        <skos:altLabel>Priority Rule</skos:altLabel>
+        <skos:altLabel>Conflict-of-Norms Rule</skos:altLabel>
+        <skos:altLabel>Precedence Rule</skos:altLabel>
+        <skos:altLabel>Derogation Principle</skos:altLabel>
+        <skos:altLabel>Conflict-of-Norms Canon</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Norm Priority</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Prioridad normativa</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Prioridad normativa</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Priorité normative</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Normkollisionsregel</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Critério de resolução de antinomias</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">עדיפות נורמטיבית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानक प्राथमिकता</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範の優先関係</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范冲突规则</skos:altLabel>
+        <skos:definition>A norm priority is a rule for deciding which of two applicable, conflicting norms prevails, for example by the rank of the issuing authority, by specificity, or by time of enactment.</skos:definition>
+        <skos:example>When a federal statute and a state statute conflict, lex superior gives the federal statute priority.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R1W2OHCPzGzlYUi4okC4bJ -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R1W2OHCPzGzlYUi4okC4bJ">
@@ -19988,6 +20040,32 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <skos:altLabel xml:lang="zh-cn">监护和探视要求</skos:altLabel>
         <skos:altLabel xml:lang="ja-jp">監護および面会請求</skos:altLabel>
         <skos:definition>Custody and Visitation Claims refer to legal actions taken by parties in family law and matrimonial claims to establish or modify custody and visitation arrangements for children, including enforcement of visitation rights, child support claims, and claims related to parental alienation or the Indian Child Welfare Act.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R1Xlw46piQQyK0QeaoR8pI3 -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R1Xlw46piQQyK0QeaoR8pI3">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP"/>
+        <rdfs:label>Normative Immunity</rdfs:label>
+        <skos:altLabel>Hohfeldian Immunity</skos:altLabel>
+        <skos:altLabel>Jural Immunity</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Normative Immunity</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Inmunidad normativa</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Inmunidad normativa</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Immunité normative</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Normative Immunität</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Imunidade normativa</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">חסינות נורמטיבית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानक उन्मुक्ति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範的免除</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范性豁免</skos:altLabel>
+        <skos:definition>An immunity is a normative position in which another party lacks the power to change the holder&apos;s rights, duties, or other legal or moral relations in a given respect. In Wesley Newcomb Hohfeld&apos;s scheme of jural relations, immunity is the correlative of disability and the opposite of liability.</skos:definition>
+        <skos:example>The Speech or Debate Clause gives members of Congress an immunity: for speech in either House, they shall not be questioned in any other place (U.S. Const. art. I, § 6, cl. 1).</skos:example>
+        <skos:example>A State&apos;s sovereign immunity means a private party lacks the power to subject the State to suit in federal court without its consent or a valid abrogation (U.S. Const. amend. XI).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RCR7Z71r5mmHYFs1xoAWwzE"/>
     </owl:Class>
     
 
@@ -20143,6 +20221,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <skos:altLabel xml:lang="ja-jp">賃借人</skos:altLabel>
         <skos:definition>A lessee is a person or entity that holds the lease of a property</skos:definition>
         <skos:hiddenLabel>LESE</skos:hiddenLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R1mB8KZFWjVdadUCG6mTXeX -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R1mB8KZFWjVdadUCG6mTXeX">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R1VeCUx7ApksL6aQiE1BjFN"/>
+        <rdfs:label>Lex Superior</rdfs:label>
+        <skos:altLabel>Lex Superior Derogat Legi Inferiori</skos:altLabel>
+        <skos:altLabel>Hierarchy Principle</skos:altLabel>
+        <skos:altLabel>Principle of Hierarchy</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Lex Superior</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Principio de jerarquía normativa</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Principio de jerarquía normativa</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Principe hiérarchique</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Lex-superior-Grundsatz</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Critério hierárquico</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">עקרון הנורמה העליונה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">उच्चतर विधि का सिद्धांत</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">上位法優先の原則</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">上位法优于下位法</skos:altLabel>
+        <skos:definition>Lex superior is the priority rule under which a norm issued by a higher authority prevails over a conflicting norm issued by a lower authority.</skos:definition>
+        <skos:example>Under the Supremacy Clause, a valid federal statute prevails over a conflicting state law (U.S. Const. art. VI, cl. 2).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
     </owl:Class>
     
 
@@ -20406,6 +20509,34 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <skos:altLabel>PTP</skos:altLabel>
         <skos:definition>A Master Limited Partnership (MLP) is a publicly traded partnership primarily involved in the natural resources, real estate, and financial services sectors. MLPs combine the tax benefits of a partnership with the liquidity of publicly traded securities.</skos:definition>
         <skos:prefLabel>Publicly Traded Partnership</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R1zBn1lrGhO9ZNTlHKf0gB -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R1zBn1lrGhO9ZNTlHKf0gB">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R7vJPxcT40MjEfNZkBK1tKH"/>
+        <rdfs:label>Justification</rdfs:label>
+        <skos:altLabel>Justifying Circumstance</skos:altLabel>
+        <skos:altLabel>Justification Defense</skos:altLabel>
+        <skos:altLabel>Ground of Justification</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Justification</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Causa de justificación</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Causa de justificación</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Fait justificatif</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Rechtfertigungsgrund</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Excludente de ilicitude</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">הצדק</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">औचित्य</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">違法性阻却事由</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">正当化事由</skos:altLabel>
+        <skos:definition>A justification is a circumstance that makes conduct that would otherwise violate a norm right or permissible in the case at hand, so the conduct is not wrongful. A justification differs from an exception, under which the norm does not apply at all, and from an excuse, under which the conduct remains wrongful but the actor is not blameworthy.</skos:definition>
+        <skos:example>Self-defense justifies the use of reasonable force against an imminent, unlawful attack.</skos:example>
+        <skos:example>The choice-of-evils defense justifies conduct that the actor believes necessary to avoid a greater harm (Model Penal Code § 3.02).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
     </owl:Class>
     
 
@@ -22884,6 +23015,32 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R29CRZT3JnJ8AmB5EFfSTp5 -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R29CRZT3JnJ8AmB5EFfSTp5">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
+        <rdfs:label>Discouragement</rdfs:label>
+        <skos:altLabel>Discouraged Act</skos:altLabel>
+        <skos:altLabel>Disfavored Act</skos:altLabel>
+        <skos:altLabel>Disfavor</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Discouragement</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Desaconsejo</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Desaconsejo</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Acte déconseillé</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Abraten</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Desaconselhamento</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">אי-המלצה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">हतोत्साहन</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">非推奨</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">不鼓励</skos:altLabel>
+        <skos:definition>A discouragement is a normative statement that an action is inadvisable or disfavored without prohibiting it. Performing a discouraged action is not a violation, though the norm-giver counsels against it.</skos:definition>
+        <skos:example>Courts disfavor forfeitures and construe forfeiture provisions strictly against the party seeking them.</skos:example>
+        <skos:example>Many courts treat motions for reconsideration as disfavored: a party may file one, but the court expects a strong reason.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R29D38f8ACe2cA3CbdeE8097 -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R29D38f8ACe2cA3CbdeE8097">
@@ -23693,6 +23850,35 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <skos:definition>The mission of the Directorate of Standards and Guidance is to ensure safe and healthful working conditions in covered workplaces throughout the United States.</skos:definition>
         <skos:hiddenLabel>DSG</skos:hiddenLabel>
         <skos:prefLabel>Directorate of Standards and Guidance</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0 -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R2Cfmjnr5HGhJlZCMmlCyw0">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD"/>
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R7vJPxcT40MjEfNZkBK1tKH"/>
+        <rdfs:label>Excuse</rdfs:label>
+        <skos:altLabel>Excusing Condition</skos:altLabel>
+        <skos:altLabel>Excuse Defense</skos:altLabel>
+        <skos:altLabel>Ground of Excuse</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Excuse</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Causa de inculpabilidad</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Excluyente de culpabilidad</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Cause de non-imputabilité</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Entschuldigungsgrund</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Excludente de culpabilidade</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">סייג לאשמה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">क्षमायोग्य परिस्थिति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">責任阻却事由</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">责任阻却事由</skos:altLabel>
+        <skos:definition>An excuse is a circumstance under which conduct that violates a norm remains wrongful, but the actor is not blameworthy or not punishable for it because of the actor&apos;s capacity, knowledge, or freedom at the time.</skos:definition>
+        <skos:example>Duress may excuse a crime committed under a threat that a person of reasonable firmness could not have resisted (Model Penal Code § 2.09).</skos:example>
+        <skos:example>The insanity defense excuses a defendant who, because of mental disease or defect, lacked substantial capacity to appreciate the wrongfulness of the conduct (Model Penal Code § 4.01).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RDDmzFedWDpLN1Xtuy3FiLh"/>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RBAoFbSK8WP6xJyVrgQd5PZ"/>
     </owl:Class>
     
 
@@ -24676,6 +24862,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R2J1C02SzYxcRUGuN0V8gJ5 -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R2J1C02SzYxcRUGuN0V8gJ5">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R1VeCUx7ApksL6aQiE1BjFN"/>
+        <rdfs:label>Lex Posterior</rdfs:label>
+        <skos:altLabel>Lex Posterior Derogat Legi Priori</skos:altLabel>
+        <skos:altLabel>Chronological Principle</skos:altLabel>
+        <skos:altLabel>Later-in-Time Rule</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Lex Posterior</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Principio cronológico</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Principio cronológico</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Principe chronologique</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Lex-posterior-Grundsatz</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Critério cronológico</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">עקרון הדין המאוחר</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">पश्चात्वर्ती विधि का सिद्धांत</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">後法優先の原則</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">新法优于旧法</skos:altLabel>
+        <skos:definition>Lex posterior is the priority rule under which a later norm prevails over a conflicting, earlier norm of equal rank.</skos:definition>
+        <skos:example>When two statutes irreconcilably conflict, the later-enacted statute controls, though courts disfavor finding an implied repeal (Posadas v. National City Bank, 296 U.S. 497, 503 (1936)).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R2JtQfCnYnhLQd4htt2JVw -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R2JtQfCnYnhLQd4htt2JVw">
@@ -24743,6 +24954,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:label>Deontic Modality</rdfs:label>
+        <skos:altLabel>Normative Modality</skos:altLabel>
+        <skos:altLabel>Deontic Status</skos:altLabel>
+        <skos:altLabel>Normative Force</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Deontic Modality</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Modalidad deóntica</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Modalidad deóntica</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Modalité déontique</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Deontische Modalität</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Modalidade deôntica</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">מודליות דאונטית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">कर्तव्यपरक विधा</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">義務様相</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">道义模态</skos:altLabel>
+        <skos:definition>A deontic modality is the normative force a norm gives an action: whether the norm requires it, forbids it, allows it, recommends it, or discourages it.</skos:definition>
+        <skos:example>In &quot;the employer must give 60 days&apos; notice,&quot; must expresses an obligation; may expresses a permission, and should expresses a recommendation.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R2Q48cAXD981QF99sStHLf -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R2Q48cAXD981QF99sStHLf">
@@ -24800,6 +25036,30 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCBE5bLTCIia7wAstjMsnKO"/>
         <rdfs:label>Georgia Superior Court - Ware County</rdfs:label>
         <skos:definition>Georgia Superior Court - Ware County: A court of general jurisdiction in the state of Georgia that has authority over civil and criminal cases within Ware County.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:label>Normative Position</rdfs:label>
+        <skos:altLabel>Jural Relation</skos:altLabel>
+        <skos:altLabel>Hohfeldian Position</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Normative Position</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Posición normativa</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Posición normativa</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Position normative</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Rechtsposition</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Posição jurídica</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">עמדה נורמטיבית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानक स्थिति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範的地位</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范地位</skos:altLabel>
+        <skos:definition>A normative position is a relation between parties that a norm creates, such as a right and its correlative duty, a power and its correlative liability, or an immunity and its correlative disability, following Wesley Newcomb Hohfeld&apos;s jural relations.</skos:definition>
+        <skos:example>A tenant&apos;s right to quiet enjoyment corresponds to the landlord&apos;s duty not to disturb it.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
     </owl:Class>
     
 
@@ -25363,6 +25623,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <skos:definition>Bankr. D. Wyo.</skos:definition>
         <skos:hiddenLabel>WYB</skos:hiddenLabel>
         <skos:prefLabel>United States Bankruptcy Court, D. Wyoming</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R30DEF9ukwQ52s1M0TM3rrK -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R30DEF9ukwQ52s1M0TM3rrK">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RCurUksxnjgPwYWpCSq0xPI"/>
+        <rdfs:label>Strong Permission</rdfs:label>
+        <skos:altLabel>Explicit Permission</skos:altLabel>
+        <skos:altLabel>Express Permission</skos:altLabel>
+        <skos:altLabel>Positive Permission</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Strong Permission</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Permiso fuerte</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Permiso fuerte</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Permission forte</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Starke Erlaubnis</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Permissão forte</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">היתר מפורש</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">स्पष्ट अनुमति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">強い許可</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">强许可</skos:altLabel>
+        <skos:definition>A strong permission is an explicit grant by a competent authority that allows an action, such as a license, permit, consent, or authorization. A strong permission can override a prohibition that falls within the granting authority&apos;s competence.</skos:definition>
+        <skos:example>A building permit expressly authorizes construction that the local code would otherwise forbid.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
     </owl:Class>
     
 
@@ -29671,6 +29956,31 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R3OGtuu1PDM3jR07sv9xc0N -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R3OGtuu1PDM3jR07sv9xc0N">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R1VeCUx7ApksL6aQiE1BjFN"/>
+        <rdfs:label>Lex Specialis</rdfs:label>
+        <skos:altLabel>Lex Specialis Derogat Legi Generali</skos:altLabel>
+        <skos:altLabel>Specificity Principle</skos:altLabel>
+        <skos:altLabel>General/Specific Canon</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Lex Specialis</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Principio de especialidad</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Principio de especialidad</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Principe de spécialité</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Spezialitätsgrundsatz</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Critério da especialidade</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">עקרון הדין הספציפי</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">विशेष विधि का सिद्धांत</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">特別法優先の原則</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">特别法优于一般法</skos:altLabel>
+        <skos:definition>Lex specialis is the priority rule under which a more specific norm prevails over a conflicting, more general norm on the matter the specific norm addresses.</skos:definition>
+        <skos:example>When a general permission and a specific prohibition conflict, the specific provision governs (RadLAX Gateway Hotel, LLC v. Amalgamated Bank, 566 U.S. 639, 645 (2012)).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R3OI7nrib1LEPtUfn5G5CH -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R3OI7nrib1LEPtUfn5G5CH">
@@ -30140,6 +30450,34 @@ Beneficiation is the process whereby the extracted material is reduced to partic
     
 
 
+    <!-- https://folio.openlegalstandard.org/R3eE7scihp6mUkGxxTTmI6l -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R3eE7scihp6mUkGxxTTmI6l">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz"/>
+        <rdfs:label>Normative Consequence</rdfs:label>
+        <skos:altLabel>Legal Consequence</skos:altLabel>
+        <skos:altLabel>Consequence of Violation</skos:altLabel>
+        <skos:altLabel>Norm Consequence</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Normative Consequence</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Consecuencia normativa</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Consecuencia normativa</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Conséquence normative</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Rechtsfolge</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Consequência normativa</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">השלכה נורמטיבית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">विधिक परिणाम</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範的帰結</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范后果</skos:altLabel>
+        <skos:definition>A normative consequence is the legal or moral result that a norm attaches to compliance with it or violation of it, such as a penalty, remedy, liability, sanction, reward, or change of status.</skos:definition>
+        <skos:example>An employer that orders a plant closing or mass layoff in violation of the WARN Act is liable to each aggrieved employee for back pay and benefits for each day of the violation (29 U.S.C. § 2104(a)(1)).</skos:example>
+        <skos:example>A person who knowingly fails to register with the Selective Service faces criminal penalties (50 U.S.C. § 3811).</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/RsJ6DupkWKlUlCHH0Ycxvp"/>
+        <rdfs:seeAlso rdf:resource="https://folio.openlegalstandard.org/R6DLuG3VglXIci9EJ3MwAK"/>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R3erD0I2JnRN8fVHGUfFoq -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R3erD0I2JnRN8fVHGUfFoq">
@@ -30251,6 +30589,54 @@ Beneficiation is the process whereby the extracted material is reduced to partic
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3391bdB1A2adE51071C7cf7"/>
         <rdfs:label>New York Town Court</rdfs:label>
         <skos:definition>New York Town Court is a court of limited jurisdiction within the New York State Courts system that handles minor civil and criminal matters at the local level.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:label>Normative Outcome</rdfs:label>
+        <skos:altLabel>Norm Evaluation Result</skos:altLabel>
+        <skos:altLabel>Deontic Outcome</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Normative Outcome</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Resultado normativo</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Resultado normativo</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Résultat normatif</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Normatives Ergebnis</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Resultado normativo</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">תוצאה נורמטיבית</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानक परिणाम</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範的評価結果</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范评价结果</skos:altLabel>
+        <skos:definition>A normative outcome is the result of evaluating conduct against a norm: compliance, violation, or the consequence the norm attaches to either.</skos:definition>
+        <skos:example>An employer that gives 60 days&apos; notice before a covered plant closing reaches compliance; one that gives none reaches violation and incurs back-pay liability.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:label>Norm Defeater</rdfs:label>
+        <skos:altLabel>Defeater</skos:altLabel>
+        <skos:altLabel>Defeasibility Ground</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Norm Defeater</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Derrotante normativo</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Derrotante normativo</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Cause d&apos;inapplicabilité de la norme</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Normausschlussgrund</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Excludente normativa</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">סייג לנורמה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानक अपवर्जक कारण</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">規範の阻却事由</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">规范阻却事由</skos:altLabel>
+        <skos:definition>A norm defeater is a circumstance or act that keeps an otherwise applicable norm from producing a violation or its consequence, such as an exception, a justification, an excuse, a waiver, or a dispensation.</skos:definition>
+        <skos:example>A signed penetration-testing authorization defeats the &quot;without authorization&quot; element of a computer-access offense; a valid waiver defeats a notice requirement.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
     </owl:Class>
     
 
@@ -98195,6 +98581,33 @@ This figure includes Withholding Taxes and Tiered Taxes applicable to this invoi
     
 
 
+    <!-- https://folio.openlegalstandard.org/R8nMXQ6k46QexNTIdUvvr4k -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/R8nMXQ6k46QexNTIdUvvr4k">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
+        <rdfs:label>Condition</rdfs:label>
+        <skos:altLabel>Precondition</skos:altLabel>
+        <skos:altLabel>Applicability Criterion</skos:altLabel>
+        <skos:altLabel>Triggering Fact</skos:altLabel>
+        <skos:altLabel>Prerequisite</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Condition</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Condición</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Condición</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Condition</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Bedingung</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Condição</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">תנאי</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">पूर्वशर्त</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">条件</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">条件</skos:altLabel>
+        <skos:definition>A condition is a stated requirement or circumstance that must hold for a norm to apply in a particular case. A condition triggers, limits, or modifies an obligation, prohibition, permission, right, or other deontic position by specifying when, to whom, and in what circumstances the norm binds.</skos:definition>
+        <skos:example>The WARN Act&apos;s notice duty binds only an employer of 100 or more employees (29 U.S.C. § 2101(a)(1)); the employee count is the condition.</skos:example>
+        <skos:example>If a business discovers a breach of personal data, then it must notify each affected resident; the discovery is the condition.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
     <!-- https://folio.openlegalstandard.org/R8nNqRKHdgIKZbyfzAg2v8I -->
 
     <owl:Class rdf:about="https://folio.openlegalstandard.org/R8nNqRKHdgIKZbyfzAg2v8I">
@@ -127392,6 +127805,60 @@ Establishments operating telecommunications facilities and infrastructure and di
         <skos:definition>A Bail Payment is the financial transaction made to secure the temporary release of an accused individual from custody, usually in the form of cash, bond, or property, which is pledged to guarantee their appearance at future court dates. This payment acts as a surety that the defendant will return for trial and may be forfeited if the individual fails to appear in court.</skos:definition>
     </owl:Class>
 
+
+
+    <!-- https://folio.openlegalstandard.org/RbR0g0g0FweCujfDBLnpLi -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/RbR0g0g0FweCujfDBLnpLi">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RlNFgB3TQfMzV26V4V7u4E"/>
+        <rdfs:label>Canons of Construction</rdfs:label>
+        <skos:altLabel>Canons of Interpretation</skos:altLabel>
+        <skos:altLabel>Interpretive Canons</skos:altLabel>
+        <skos:altLabel>Maxims of Interpretation</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Canons of Construction</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Cánones de interpretación</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Cánones de interpretación</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Règles d&apos;interprétation</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Auslegungsregeln</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Cânones de interpretação</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">כללי פרשנות</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">निर्वचन के सिद्धांत</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">解釈準則</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">解释规则</skos:altLabel>
+        <skos:definition>Canons of construction are interpretive principles that courts and other interpreters use to determine the meaning of legal texts and to resolve conflicts between norms.</skos:definition>
+        <skos:example>The rule of lenity resolves a genuine ambiguity in a criminal statute in the defendant&apos;s favor.</skos:example>
+        <skos:example>Ejusdem generis reads a general word that follows a list of specific items as limited to things of the same kind.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
+
+
+    <!-- https://folio.openlegalstandard.org/RjMjN3NkaSRnPZw8vlwlcY -->
+
+    <owl:Class rdf:about="https://folio.openlegalstandard.org/RjMjN3NkaSRnPZw8vlwlcY">
+        <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
+        <rdfs:label>Recommendation</rdfs:label>
+        <skos:altLabel>Recommended Act</skos:altLabel>
+        <skos:altLabel>Encouraged Act</skos:altLabel>
+        <skos:altLabel>Hortatory Provision</skos:altLabel>
+        <skos:altLabel>Precatory Provision</skos:altLabel>
+        <skos:altLabel>Advisory Norm</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Recommendation</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Recomendación</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Recomendación</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Recommandation</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Empfehlung</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Recomendação</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">המלצה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अनुशंसा</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">推奨</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">建议</skos:altLabel>
+        <skos:definition>A recommendation is a normative statement that an action is advisable or praiseworthy without making it obligatory. Departing from a recommendation is not a violation, though it may carry evaluative, reputational, or moral significance.</skos:definition>
+        <skos:example>Agency guidance documents describe recommended, nonbinding practices with words such as &quot;should.&quot;</skos:example>
+        <skos:example>A testator&apos;s precatory words (&quot;it is my wish that&quot;) express a recommendation that does not bind the executor.</skos:example>
+        <skos:note>Proposed 2026-11-08 by the Agents&apos; Lawful Good gap registry (proposal deontic-completion-2026-11-08) to complete the Deontic Specification branch.</skos:note>
+    </owl:Class>
+    
 
 
     <!-- https://folio.openlegalstandard.org/RtQgrbKIvgHvOXm_6lIpaY172 -->
