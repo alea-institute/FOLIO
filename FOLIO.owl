@@ -111890,6 +111890,11 @@ Note that the EXTEND_HEADER option was purposely omitted from this segment.
         <skos:altLabel xml:lang="en-gb">Waiver</skos:altLabel>
         <skos:altLabel xml:lang="he-il">וַעֲדָה</skos:altLabel>
         <skos:altLabel xml:lang="hi-in">अस्वीकरण</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Renonciation</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Verzicht</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Renúncia</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">権利放棄</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">弃权</skos:altLabel>
         <skos:definition>A waiver is a voluntary relinquishment or surrender of some known right, claim, or privilege, often documented in a formal, written statement. A waiver can also be a legal defense that can be used in civil litigation where a party intentionally relinquishes a known right or privilege. A waver is usually prospective (forward-looking), where a Release is usually retrospective (backward-looking).</skos:definition>
     </owl:Class>
     
@@ -126418,6 +126423,16 @@ Establishments operating telecommunications facilities and infrastructure and di
         </rdfs:subClassOf>
         <rdfs:label>Authority</rdfs:label>
         <skos:altLabel>Legal Authority</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Authority</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Autoridad</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Autoridad</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Autorité</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Befugnis</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Autoridade</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">סמכות</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">प्राधिकार</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">権限</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">职权</skos:altLabel>
         <skos:definition>Authority is the legal power or right to give orders, make decisions, and enforce obedience.</skos:definition>
     </owl:Class>
     
@@ -186241,6 +186256,16 @@ It would be possible for the law firm to submit an invoice containing all line i
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz"/>
         <rdfs:label>Compliance</rdfs:label>
         <skos:altLabel>Legal Compliance</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Compliance (Deontic)</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Cumplimiento</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Cumplimiento</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Conformité</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Einhaltung</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Conformidade</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">ציות</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अनुपालन</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">遵守</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">合规</skos:altLabel>
         <skos:definition>Deontic compliance refers to the conformity in action, behavior, or attitude to a set of rules or standards, as prescribed by laws, regulations, or ethical principles.</skos:definition>
     </owl:Class>
     
@@ -187568,6 +187593,16 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3p22AB0XXbb1kWWNeQWRDD"/>
         <rdfs:comment>From LIST: Legal Issues Taxonomy — https://taxonomy.legal/</rdfs:comment>
         <rdfs:label>Exception</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Exception</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Excepción</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Excepción</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Exception</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Ausnahme</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Exceção</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">חריג</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अपवाद</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">例外</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">例外</skos:altLabel>
         <skos:definition>In a legal context, an exception refers to a situation or circumstance that deviates from the general rule or norm. Exceptions are typically invoked to address specific conditions or cases that require special consideration or treatment within a legal framework.</skos:definition>
     </owl:Class>
     
@@ -190845,6 +190880,16 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
         </rdfs:subClassOf>
         <rdfs:label>Obligation Directionality</rdfs:label>
         <skos:altLabel>Contractual Directionality</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Obligation Directionality</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Direccionalidad de la obligación</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Direccionalidad de la obligación</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Direction de l&apos;obligation</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Richtung der Verpflichtung</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Direcionalidade da obrigação</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">כיווניות החובה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">दायित्व की दिशा</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">義務の方向性</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">义务方向性</skos:altLabel>
         <skos:definition>In which direction does the contractual right and/or obligation flow? Example: &quot;Party A indemnifies Party B.&quot;</skos:definition>
     </owl:Class>
     
@@ -191003,6 +191048,16 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
     <owl:Class rdf:about="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn">
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RlNFgB3TQfMzV26V4V7u4E"/>
         <rdfs:label>Deontic Specification</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Deontic Specification</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Especificación deóntica</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Especificación deóntica</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Spécification déontique</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Deontische Spezifikation</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Especificação deôntica</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">מפרט דאונטי</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">कर्तव्यपरक विनिर्देश</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">義務論的仕様</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">道义规范说明</skos:altLabel>
         <skos:definition>A deontic specification refers to the formulation of norms, obligations, permissions, and prohibitions in logical or computational systems, often used in AI and computer science to model normative systems and behaviors.</skos:definition>
     </owl:Class>
     
@@ -192943,6 +192998,16 @@ If tx_id is a Tiered Tax, the value in this field should be 0.
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
         <rdfs:label>Prohibition</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Prohibition</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Prohibición</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Prohibición</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Interdiction</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Verbot</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Proibição</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">איסור</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">निषेध</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">禁止</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">禁止</skos:altLabel>
         <skos:definition>Prohibition refers to a legal or moral mandate that forbids or restricts a specific action, behavior, or practice, enforceable by law or ethical principles.</skos:definition>
     </owl:Class>
     
@@ -194355,6 +194420,16 @@ If tx_id is a Tiered Tax, the value in this field should be 0.
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2PCCd0Cf7TiP6IxGyrz7Ta"/>
         <rdfs:label>Permission</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Permission</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Permiso</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Permiso</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Permission</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Erlaubnis</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Permissão</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">היתר</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अनुमति</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">許可</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">许可</skos:altLabel>
         <skos:definition>Permission refers to the formal consent or authorization granted by an authority, allowing an individual or entity to perform a certain action that would otherwise be illegal or against the rules.</skos:definition>
     </owl:Class>
     
@@ -220865,6 +220940,16 @@ In addition, in situations where the submission corrects an invoice rejected by 
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/RClhbl4E1TJp9LygIXewIhn"/>
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R3oECS9Y8el0TByDj3bapCz"/>
         <rdfs:label>Violation</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Violation</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Incumplimiento normativo</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Incumplimiento normativo</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Violation</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Normverstoß</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Violação</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">הפרת נורמה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">मानदंड उल्लंघन</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">違反</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">违反</skos:altLabel>
         <skos:definition>A violation is an act or instance of breaking or failing to comply with a rule, regulation, contract, or law, which can lead to legal consequences.</skos:definition>
     </owl:Class>
     
@@ -221302,6 +221387,16 @@ In addition, in situations where the submission corrects an invoice rejected by 
         <skos:altLabel>Duty</skos:altLabel>
         <skos:altLabel>Legal Obligation</skos:altLabel>
         <skos:altLabel>Responsibility</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Obligation (Deontic)</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Obligación</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Obligación</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Obligation (déontique)</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Pflicht</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Obrigação</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">חובה</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">दायित्व</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">義務</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">义务</skos:altLabel>
         <skos:definition>An obligation is a legal or moral duty that requires a certain course of action or behavior, often enforceable by law or ethical principles.</skos:definition>
         <skos:prefLabel>Covenant</skos:prefLabel>
     </owl:Class>
@@ -263746,6 +263841,16 @@ The total of the Withholding Tax(es) do not have to equal to the other taxes on 
         <rdfs:subClassOf rdf:resource="https://folio.openlegalstandard.org/R2TPb1dgPO42w8tLZkDdqCP"/>
         <rdfs:label>Right</rdfs:label>
         <skos:altLabel>Legal Right</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">Right</skos:altLabel>
+        <skos:altLabel xml:lang="es-es">Derecho</skos:altLabel>
+        <skos:altLabel xml:lang="es-mx">Derecho</skos:altLabel>
+        <skos:altLabel xml:lang="fr-fr">Droit</skos:altLabel>
+        <skos:altLabel xml:lang="de-de">Subjektives Recht</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">Direito</skos:altLabel>
+        <skos:altLabel xml:lang="he-il">זכות</skos:altLabel>
+        <skos:altLabel xml:lang="hi-in">अधिकार</skos:altLabel>
+        <skos:altLabel xml:lang="ja-jp">権利</skos:altLabel>
+        <skos:altLabel xml:lang="zh-cn">权利</skos:altLabel>
         <skos:definition>A right is a moral, social, or legal entitlement to perform or refrain from certain actions, or to be in a certain state, often protected and enforceable by law.</skos:definition>
     </owl:Class>
     
